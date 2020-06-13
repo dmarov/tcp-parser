@@ -31,7 +31,7 @@ const server = net.createServer((c) => {
     });
 
     c.on('data', data => {
-        return parser(data);
+        c.write(parser(data));
     });
 
     c.on('end', () => {
