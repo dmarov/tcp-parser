@@ -1,0 +1,14 @@
+{
+  "name": "data-edit",
+  "version": "1.0.0",
+  "description": "software for editing arbitrary data recieved via tcp connection",
+  "main": "index.js",
+  "author": "Dmitry Marov",
+  "license": "MIT",
+  "devDependencies": {
+    "yargs": "^15.3.1"
+  },
+  "dependencies": {
+    "yaml": "^1.10.0"
+  }
+}
